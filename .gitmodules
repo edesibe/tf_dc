@@ -1,0 +1,12 @@
+[submodule "modules/remote_state"]
+  path = modules/remote_state
+  url = git@github.com:edesibe/tf_remote_state.git
+[submodule "modules/vpc"]
+	path = modules/vpc
+	url = git@github.com:edesibe/tf_vpc.git
+[submodule "modules/web"]
+	path = modules/web
+	url = git@github.com:edesibe/tf_web.git
+[submodule "modules/api"]
+	path = modules/api
+	url = git@github.com:edesibe/tf_api.git
