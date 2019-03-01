@@ -11,7 +11,7 @@ terraform {
 }
 */
 module "remote_state" {
-  source        = "git@github.com:edesibe/tf_remote_state?ref=v0.0.7"
+  source        = "git@github.com:edesibe/tf_remote_state.git"
   region        = "${var.region}"
   prefix        = "${var.prefix}"
   force_destroy = true
@@ -19,7 +19,7 @@ module "remote_state" {
 }
 
 module "vpc" {
-  source          = "git@github.com:edesibe/tf_vpc.git?ref=v0.0.6"
+  source          = "git@github.com:edesibe/tf_vpc.git"
   environment     = "${var.environment}"
   region          = "${var.region}"
   key_name        = "${var.key_name}"
