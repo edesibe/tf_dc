@@ -1,7 +1,7 @@
 provider "aws" {
   region = "${var.region}"
 }
-
+/*
 terraform {
   backend "s3" {
     region = "eu-central-1"
@@ -9,6 +9,7 @@ terraform {
     key    = "terraform.tfstate"
   }
 }
+*/
 
 module "remote_state" {
   source        = "git@github.com:edesibe/tf_remote_state"

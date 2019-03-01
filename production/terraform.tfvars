@@ -1,4 +1,4 @@
-region = "eu-central-1"
+region = "us-east-1"
 prefix = "edesibecom"
 environment = "prod"
 key_name = "ivantest"
