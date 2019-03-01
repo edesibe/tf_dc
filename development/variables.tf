@@ -27,3 +27,8 @@ variable "private_subnets" {
   default     = []
   description = "The list of private subnets to populate"
 }
+
+variable "azs" {
+  description = "A list of availability zones in the region"
+  default     = []
+}
