@@ -1,6 +1,6 @@
 # An example data center architecture with Terraform
 
-A lightweight data center architecture for The Terraform Book.
+A lightweight data center architecture.
 
 ## Usage
 
@@ -31,7 +31,15 @@ The rough directory tree should be:
 │   │   ├── outputs.tf
 │   │   └── variables.tf
 │   ├── remote_state/
+│   │   ├── README.md
+│   │   ├── main.tf
+│   │   ├── outputs.tf
+│   │   └── variables.tf
 │   ├── vpc/
+│   │   ├── README.md
+│   │   ├── main.tf
+│   │   ├── outputs.tf
+│   │   └── variables.tf
 │   └── web/
 │       ├── README.md
 │       ├── files/
@@ -46,7 +54,3 @@ The rough directory tree should be:
     ├── variables.tf
     └── web.tf
 ```
-
-## License
-
-MIT
