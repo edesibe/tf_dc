@@ -43,7 +43,6 @@ The rough directory tree should be:
 │   └── web/
 │       ├── README.md
 │       ├── files/
-│       │   ├── app_bootstrap.sh
 │       │   └── web_bootstrap.sh
 │       ├── main.tf
 │       ├── outputs.tf
